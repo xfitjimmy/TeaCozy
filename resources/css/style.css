@@ -1,0 +1,162 @@
+/* Overall Styles */
+
+body {
+	margin: 0;
+	font-family: "Helvetica";
+	font-size: 22px;
+	color: #fff5ee;
+	background-color: black;
+	opacity: 0.9;
+}
+
+a {
+	color: #fff5ee;
+	text-decoration: underline;
+}
+
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+/* Header */
+
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid seashell;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	padding-left: 10px;
+}
+
+.logo img {
+	width: 157px;
+	height: 50px;
+	margin-right: 12px;
+}
+
+header nav {
+	padding-right: 10px;
+}
+
+
+/* Main Content Container */
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	margin: 0 auto 78px auto;
+	padding-top: 71px;
+}
+
+/* Mission */
+.mission-container {
+	background-image: url("../../resources/images/img-mission-background.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:  center;
+	width: 1200px;
+	height: 700px;
+	padding-top: 0px;
+}
+
+.mission-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:  center;
+	width: 1200px;
+	background-color: black;
+}
+
+/* What's Steeping */
+.steeping-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items:  center;
+	width: 1000px;
+	padding-top: 0px;
+}
+
+.steeping-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items:  center;
+	width: 1000px;
+}
+
+.steeping-image-container {
+	display: flex;
+	flex-direction: space-around;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.steeping-image {
+	padding: 5px 10px;
+}
+
+/* Locations */
+.locations-container {
+	background-image: url("../../resources/images/img-locations-background.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:  center;
+	width: 1200px;
+	height: 500px;
+	padding-top: 0px;
+}
+
+.locations-text-box-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.locations-text-box {
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	text-align: center;
+	margin: 10px 20px;
+	opacity: 1;
+}
+
+
+/* Footer */
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 200px;
+}
+
+.copyright-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items:  center;
+	width: 100%;
+	height: 50px;
+	margin-left: 20px;
+}
